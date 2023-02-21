@@ -1,0 +1,138 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: #1f184e;
+    font-family: 'Open Sans', sans-serif;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1rem 5rem;
+    
+}
+.navbar h2{
+    color: white;
+}
+
+.navbar ul a{
+    color: white;
+    text-decoration: none;
+}
+
+.firstnav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 0.5rem;
+    
+}
+.heroleft h1, p {
+    color: white;
+}
+.menu {
+    display: flex;
+    justify-content:space-around;
+    gap: 1rem;
+    align-items: center;
+    list-style:none;
+    
+}
+.buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    
+}
+
+.btn{
+    width: 7rem;
+    height: 2rem;
+    border-radius: 0.5rem;
+}
+
+.lighter {
+    background-color: #04d8d0;
+    border: none;
+}
+
+.darker {
+   
+    color: #04d8d0;
+    border-color: #04d8d0;
+}
+.hero{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2rem 5rem;
+}
+
+.heroleft p {
+    margin: 1rem 0rem;
+}
+.heroleft {
+    height: 10rem;
+    width: 30rem;
+}
+.buttons2 {
+    display: flex;
+    align-items: center;
+    margin-top: 3rem;
+    gap: 2rem;
+}
+
+.heroright{
+    width: 50%;
+
+}
+.heroright img {
+    width: 100%;
+   
+}
+.upper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 4rem 5rem;
+}
+
+.upper img {
+    width: 15%;
+    opacity: 50%;
+}
+
+.lower {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5rem 5rem 2rem 5rem;
+    gap: 3rem;
+}
+.lower-left{
+    width: 50%;
+}
+
+.lower-right{
+    width: 50%;
+}
+
+.lower-left img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.lower-right p, h1 {
+    color: white;
+}
+
+.lower-right p{
+    margin: 2rem 0rem;
+}
+
+.fa-solid{
+    color: white;
+    font-size: 2rem;
+}
