@@ -51,17 +51,39 @@
     width: 7rem;
     height: 2rem;
     border-radius: 0.5rem;
-}
+   
+        
+    }
+    
+
 
 .lighter {
     background-color: #04d8d0;
     border: none;
+    font-weight: bold;
+    transition: all cubic-bezier(.68, 0.99, .81, .64) 0.5s;
+    cursor: pointer;
+    }
+.lighter:hover{
+    transform: scale(1.2)
+    
+    
 }
+
+
 
 .darker {
    
     color: #04d8d0;
     border-color: #04d8d0;
+    font-weight: bold;
+    transition: all cubic-bezier(.68, 0.99, .81, .64) 0.5s;
+    cursor: pointer;
+
+}
+.darker:hover{
+    transform:scale(1.2)
+
 }
 .hero{
     display: flex;
@@ -110,6 +132,7 @@
     align-items: center;
     margin: 5rem 5rem 2rem 5rem;
     gap: 3rem;
+    
 }
 .lower-left{
     width: 50%;
